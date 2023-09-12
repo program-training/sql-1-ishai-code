@@ -48,4 +48,5 @@ FROM products
 21.SELECT product_id, product_name, unit_price
 FROM products
 WHERE unit_price > (SELECT avg(unit_price) FROM products)
-22.
+22.SELECT city, COUNT(employee_id) from employees
+GROUP BY (city)
