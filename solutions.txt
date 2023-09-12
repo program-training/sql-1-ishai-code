@@ -18,7 +18,9 @@ WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 7.SELECT * FROM products
 WHERE units_in_stock = 0
 8.SELECT AVG(unit_price) FROM products
-9.
+9.SELECT sum(unit_price * quantity) 
+FROM Order_Details 
+WHERE product_id = 72
 10.
 11.
 12.
