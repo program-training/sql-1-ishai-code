@@ -34,7 +34,8 @@ WHERE Contact_Title IN ('Owner','CEO' )
 FROM products
 15.SELECT AVG(EXTRACT(YEAR FROM AGE(CURRENT_DATE, Birth_Date))) as avg_age
 FROM employees
-16.
+16.SELECT * FROM customers
+WHERE phone LIKE '%123%'
 17.
 18.
 19.
