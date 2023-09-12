@@ -15,7 +15,8 @@ ORDER BY unit_price DESC
 LIMIT 5;
 6.SELECT * FROM Employees
 WHERE EXTRACT(YEAR FROM birth_date) < 1960;
-7.
+7.SELECT * FROM products
+WHERE units_in_stock = 0
 8.
 9.
 10.
