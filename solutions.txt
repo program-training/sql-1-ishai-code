@@ -5,7 +5,8 @@ from products
 WHERE unit_price > 50
 2.SELECT * from customers 
 WHERE country = 'Germany'
-3.
+3.SELECT * from orders
+WHERE customer_id = 'ALFKI'
 4.
 5.
 6.
