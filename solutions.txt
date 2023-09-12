@@ -17,7 +17,7 @@ LIMIT 5;
 WHERE EXTRACT(YEAR FROM birth_date) < 1960;
 7.SELECT * FROM products
 WHERE units_in_stock = 0
-8.
+8.SELECT AVG(unit_price) FROM products
 9.
 10.
 11.
