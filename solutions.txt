@@ -9,7 +9,11 @@ WHERE country = 'Germany'
 WHERE customer_id = 'ALFKI'
 4.SELECT count(order_id) as TotalOrders
 FROM orders
-5.
+5.SELECT * 
+FROM products
+ORDER BY unit_price DESC
+LIMIT 5;
+
 6.
 7.
 8.
