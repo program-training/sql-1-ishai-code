@@ -25,7 +25,9 @@ WHERE product_id = 72
 FROM products
 11.SELECT * FROM products
 WHERE Discontinued = 1
-12.
+12.SELECT COUNT(order_id) 
+FROM orders
+WHERE EXTRACT(YEAR FROM order_date) = 1997
 13.
 14.
 15.
