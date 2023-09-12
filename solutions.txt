@@ -21,7 +21,8 @@ WHERE units_in_stock = 0
 9.SELECT sum(unit_price * quantity) 
 FROM Order_Details 
 WHERE product_id = 72
-10.
+10.SELECT distinct COUNT(category_id) 
+FROM products
 11.
 12.
 13.
