@@ -23,7 +23,8 @@ FROM Order_Details
 WHERE product_id = 72
 10.SELECT distinct COUNT(category_id) 
 FROM products
-11.
+11.SELECT * FROM products
+WHERE Discontinued = 1
 12.
 13.
 14.
