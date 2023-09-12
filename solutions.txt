@@ -38,7 +38,7 @@ FROM employees
 WHERE phone LIKE '%123%'
 17.SELECT * 
 FROM products
-WHERE units_in_stock < 10 AND discontinued = 1
+WHERE units_in_stock < 10 AND discontinued = 0
 18.
 19.
 20.
